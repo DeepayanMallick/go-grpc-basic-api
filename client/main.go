@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github/go-grpc-basic/proto"
 	"log"
 	"net/http"
 	"strconv"
 
+	"github.com/DeepayanMallick/go-grpc-basic-api/proto"
 	"github.com/gin-gonic/gin"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
