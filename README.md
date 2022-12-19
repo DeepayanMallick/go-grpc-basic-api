@@ -2,8 +2,8 @@
 
 ### In this project I build a basic API using gRPC and protobufs in Go
 
-# Generate proto file
 -----------------------
+## Run this command to generate proto file
 ```
 protoc --go_out=. --go_opt=paths=source_relative \
     --go-grpc_out=. --go-grpc_opt=paths=source_relative \
